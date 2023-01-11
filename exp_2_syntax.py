@@ -104,3 +104,12 @@ names_tuple[0] = "Bob"
 f"Hi my name is {my_name} and I am {my_age} old"
 
 
+#%%
+my_age = 30
+
+f"I am {my_age}"
+
+# %% escaping
+f" this is \" {{ escaped"
+
+# %%
