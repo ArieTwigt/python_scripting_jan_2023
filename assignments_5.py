@@ -7,7 +7,23 @@ else:
     print("❌Your name does not contain an 'a'")
 
 
-#%% Assignment 2b
+
+#%% Assignment 2a
+
+vowels = 'aeoiu'
+my_name = "Arie"
+
+if my_name[0].lower() in vowels:
+    print("Starts with a vowel")
+    my_name_new = my_name.replace(my_name[0], "B")
+    print(my_name_new)
+else:
+    print("Does not start with a vowel")
+    my_name_new = my_name.replace(my_name[0], "A")
+    print(my_name_new)
+
+
+#%% Assignment 2b --> Elaborate, with random and string
 import string
 import random
 
