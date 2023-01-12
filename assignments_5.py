@@ -23,7 +23,7 @@ else:
     print(my_name_new)
 
 
-#%% Assignment 2b --> Elaborate, with random and string
+#%% Assignment 2b --> Elaborate, with random and string, if letter appears more than 1 time in the name
 import string
 import random
 
@@ -45,4 +45,7 @@ else:
     my_name_new = my_name.replace(first_letter, random_vowel, 1)
 
 print(my_name_new)
-# %%
+
+
+
+
