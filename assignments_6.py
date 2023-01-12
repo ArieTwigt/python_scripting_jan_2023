@@ -19,8 +19,15 @@ today_date = date.today()
 
 num_days = 10
 
+weekend_days = ['Saturday', 'Sunday']
+
 for num_day in range(10):
     num_day += 1
     next_date = today_date + timedelta(days=num_day)
     next_date_weekday = next_date.strftime("%A")
-    print(next_date_weekday)
+    if next_date_weekday in weekend_days:
+        print(f"🍻 {next_date_weekday}")
+    else:
+        print(f"💻 {next_date_weekday}")
+
+# %%
