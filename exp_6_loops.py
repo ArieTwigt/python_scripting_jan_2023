@@ -125,4 +125,8 @@ for key, value in person_dict.items():
 # %%
 for x in person_dict.items():
     print(x)
+
+# %%
+for number in range(0,10):
+    print(number)
 # %%
