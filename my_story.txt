@@ -1,0 +1,7 @@
+
+
+This is a story of a programmer.
+He wrote a script.
+It got an Indentation error.
+
+- END -
